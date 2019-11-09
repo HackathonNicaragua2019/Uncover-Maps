@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Marcador_Allende9" size="10.000000 5.968750" />
+    <ImageTarget name="Marcador_Allende8" size="10.000000 19.968800" />
+    <ImageTarget name="Marcador_Allende7" size="10.000000 28.008753" />
+    <ImageTarget name="Marcador_Allende6" size="10.000000 16.060226" />
+    <ImageTarget name="Marcador_Allende5" size="10.000000 5.851562" />
+    <ImageTarget name="Marcador_Allende4" size="10.000000 6.421875" />
+    <ImageTarget name="Marcador_Allende3" size="10.000000 1.273438" />
+    <ImageTarget name="Marcador_Allende2" size="11.000000 6.677344" />
+    <ImageTarget name="Marcador_Allende1" size="10.000000 6.446830" />
+    <ImageTarget name="Marcador_Mombacho1" size="10.000000 7.003841" />
+  </Tracking>
+</QCARConfig>
