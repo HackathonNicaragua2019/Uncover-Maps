@@ -18,8 +18,7 @@ public class TouchLetreros : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        capturaCoordenadas();
-        //inicializacion();
+  
     }
 
     // Update is called once per frame
@@ -59,16 +58,6 @@ public class TouchLetreros : MonoBehaviour
         {
             Rotacion8();
         }
-    }
-
-    public void capturaCoordenadas()
-    {
-        coordenadaRotulo7 = letreroAzul4.transform.localEulerAngles.y;
-    }
-
-    public void inicializacion()
-    {
-        letreroAzul4.transform.Rotate(new Vector3(0, coordenadaRotulo7, 0));
     }
 
     public void Touch()
@@ -221,7 +210,7 @@ public class TouchLetreros : MonoBehaviour
 
     public void Rotacion7()
     {
-        if (letreroAzul4.transform.localEulerAngles.y < velocidadRotacion)
+        if (letreroAzul4.transform.localEulerAngles.y < limiteGiro)
         {
             contadorY += 1;
         }

@@ -1,5 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - Animaciones
+    - BtnCentral
+    - TouchLetreros
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
@@ -10,11 +14,11 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -105,6 +109,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10814}
     - Class: 114
       Script: {instanceID: 10816}
+    - Class: 114
+      Script: {instanceID: 11854}
+    - Class: 114
+      Script: {instanceID: 11856}
+    - Class: 114
+      Script: {instanceID: 11858}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -368,18 +378,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements
-    className: CallbackExecutor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements.Editor
-    className: Placeholder
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -1784,6 +1782,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 353251b58c83df9c961cd6ac8d520864
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TouchLetreros
+  - hash:
+      serializedVersion: 2
+      Hash: 353251b58c83df9c961cd6ac8d520864
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Animaciones
+  - hash:
+      serializedVersion: 2
+      Hash: a1e7a591adf65a5ca30c6c80d9664185
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BtnCentral
   platform: 13
   scenePathNames:
   - Assets/Scenes/PrincipalScene.unity

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\danie\\Desktop\\Competencia final\\Proyecto\\Uncover-Maps\\UncoverMapsProject\\Temp\\gradleOut\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\danie\\Desktop\\Uncover-Maps\\UncoverMapsProject\\Temp\\gradleOut\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\danie\\Desktop\\Competencia final\\Proyecto\\Uncover-Maps\\UncoverMapsProject\\Temp\\gradleOut\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "C:\\Users\\danie\\Desktop\\Uncover-Maps\\UncoverMapsProject\\Temp\\gradleOut\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",

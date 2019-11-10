@@ -154,7 +154,7 @@ public class Animaciones : MonoBehaviour
             letreroAzul3.transform.Rotate(new Vector3(0, velocidadGiro, 0) * Time.deltaTime);
         }
 
-        if(letreroAzul3.transform.localEulerAngles.y < limiteGiro)
+        if(letreroAzul4.transform.localEulerAngles.y < limiteGiro)
         {
             letreroAzul4.transform.Rotate(new Vector3(0, velocidadGiro, 0) * Time.deltaTime);
         }
