@@ -30,20 +30,20 @@ public class ControlClima : MonoBehaviour
     void Update()
     {
         count++;
-        if (count == 100)
+        if (count == 200)
         {
             Debug.Log("sol true");
             inSol = true;
 
         }
-        if (count == 200)
+        if (count == 600)
         {
             Debug.Log("luna true");
             inLuna = true;
 
 
         }
-        if (count == 300)
+        if (count == 1000)
         {
             Debug.Log("nubes true");
             inNubes = true;

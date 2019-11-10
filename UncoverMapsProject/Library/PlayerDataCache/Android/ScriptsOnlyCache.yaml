@@ -3,7 +3,9 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Animaciones
     - BtnCentral
+    - ControlClima
     - TouchLetreros
+    - btnCerrar
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
@@ -11,6 +13,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshPro
+    - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -106,6 +109,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10380}
     - Class: 114
+      Script: {instanceID: 10510}
+    - Class: 114
       Script: {instanceID: 10742}
     - Class: 114
       Script: {instanceID: 10814}
@@ -117,6 +122,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11856}
     - Class: 114
       Script: {instanceID: 11858}
+    - Class: 114
+      Script: {instanceID: 149538}
+    - Class: 114
+      Script: {instanceID: 185676}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1786,7 +1795,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 353251b58c83df9c961cd6ac8d520864
+      Hash: 4ff3ee94a89911e54a8eb2f8a8c2fae1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TouchLetreros
@@ -1802,7 +1811,25 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BtnCentral
+  - hash:
+      serializedVersion: 2
+      Hash: d3495c1b62ab09f5be1eddb6bab8b5d9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ControlClima
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: btnCerrarPanelLetrero1
+  - hash:
+      serializedVersion: 2
+      Hash: b25673a112033e8d44bccb4071b08488
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: btnCerrar
   platform: 13
   scenePathNames:
   - Assets/Scenes/PrincipalScene.unity
-  playerPath: C:/Users/danie/Desktop/Competencia final/UncoverMapsAPK.apk
+  playerPath: C:/Users/danie/Desktop/UncoverMapsAPK.apk

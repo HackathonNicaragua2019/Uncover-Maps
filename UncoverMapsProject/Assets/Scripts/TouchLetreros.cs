@@ -1,24 +1,25 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class TouchLetreros : MonoBehaviour
 {
     public GameObject letreroAzul1, letreroAzul2, letreroAzul3, letreroAzul4;
     public GameObject letreroRojo1, letreroRojo2, letreroRojo3;
     public GameObject letreroVerde1;
-    GameObject letrerVerde1;
+    public GameObject panel1, panel2, panel3, panel4, panel5, panel6, panel7, panel8;
+    public GameObject btnCerrarP1;
 
-    bool test1 = false, test2 = false, test3 = false, test4 = false, test5 = false, test6 = false, test7 = false, test8 = false;
-    string nombreLetrero;
+    bool test1, test2, test3, test4, test5, test6, test7, test8;
+    string nombreLetrero, cerrar;
     float velocidadRotacion = -944, limiteGiro = 180;
     int contadorY;
-    float coordenadaRotulo7;
 
-    // Start is called before the first frame update
+    //// Start is called before the first frame update
     void Start()
     {
-  
+
     }
 
     // Update is called once per frame
@@ -30,7 +31,7 @@ public class TouchLetreros : MonoBehaviour
         {
             Rotacion1();
         }
-        else if(test2)
+        else if (test2)
         {
             Rotacion2();
         }
@@ -62,14 +63,14 @@ public class TouchLetreros : MonoBehaviour
 
     public void Touch()
     {
-        if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
+        if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began && !panel1.activeInHierarchy)
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
             RaycastHit hit;
-            if(Physics.Raycast(ray, out hit))
+            if (Physics.Raycast(ray, out hit))
             {
                 nombreLetrero = hit.transform.name;
-                switch(nombreLetrero)
+                switch (nombreLetrero)
                 {
                     case "PlanoTouch1":
                         test1 = true;
@@ -102,7 +103,7 @@ public class TouchLetreros : MonoBehaviour
 
     public void Rotacion1()
     {
-        if(letreroAzul1.transform.localEulerAngles.y < limiteGiro)
+        if (letreroAzul1.transform.localEulerAngles.y < limiteGiro)
         {
             contadorY += 1;
         }
@@ -115,6 +116,8 @@ public class TouchLetreros : MonoBehaviour
         {
             test1 = false;
             contadorY = 0;
+            panel1.SetActive(true);
+            btnCerrarP1.SetActive(true);
         }
     }
 
@@ -133,6 +136,8 @@ public class TouchLetreros : MonoBehaviour
         {
             test2 = false;
             contadorY = 0;
+            panel1.SetActive(true);
+            btnCerrarP1.SetActive(true);
         }
     }
 
@@ -151,6 +156,8 @@ public class TouchLetreros : MonoBehaviour
         {
             test3 = false;
             contadorY = 0;
+            panel1.SetActive(true);
+            btnCerrarP1.SetActive(true);
         }
     }
 
@@ -169,6 +176,8 @@ public class TouchLetreros : MonoBehaviour
         {
             test4 = false;
             contadorY = 0;
+            panel1.SetActive(true);
+            btnCerrarP1.SetActive(true);
         }
     }
 
@@ -187,6 +196,8 @@ public class TouchLetreros : MonoBehaviour
         {
             test5 = false;
             contadorY = 0;
+            panel1.SetActive(true);
+            btnCerrarP1.SetActive(true);
         }
     }
 
@@ -205,6 +216,8 @@ public class TouchLetreros : MonoBehaviour
         {
             test6 = false;
             contadorY = 0;
+            panel1.SetActive(true);
+            btnCerrarP1.SetActive(true);
         }
     }
 
@@ -223,6 +236,8 @@ public class TouchLetreros : MonoBehaviour
         {
             test7 = false;
             contadorY = 0;
+            panel1.SetActive(true);
+            btnCerrarP1.SetActive(true);
         }
     }
 
@@ -241,6 +256,8 @@ public class TouchLetreros : MonoBehaviour
         {
             test8 = false;
             contadorY = 0;
+            panel1.SetActive(true);
+            btnCerrarP1.SetActive(true);
         }
     }
 }
