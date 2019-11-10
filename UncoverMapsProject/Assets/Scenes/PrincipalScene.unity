@@ -154,7 +154,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -276, y: 261}
+  m_AnchoredPosition: {x: -276, y: -482}
   m_SizeDelta: {x: 601.6, y: 36.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &19868512
@@ -902,7 +902,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -354, y: -58}
+  m_AnchoredPosition: {x: -354, y: -744}
   m_SizeDelta: {x: 461.5, y: 117.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &252846320
@@ -982,7 +982,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -373, y: 241}
+  m_AnchoredPosition: {x: -373, y: -445}
   m_SizeDelta: {x: 408.1, y: 37.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &289100028
@@ -1443,7 +1443,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -293, y: 15}
+  m_AnchoredPosition: {x: -293, y: -728}
   m_SizeDelta: {x: 579.2, y: 79.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577823101
@@ -1698,7 +1698,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -354, y: 87}
+  m_AnchoredPosition: {x: -354, y: -599}
   m_SizeDelta: {x: 461.5, y: 117.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &681381682
@@ -1920,7 +1920,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &753857028
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2252,7 +2252,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -293, y: -222}
+  m_AnchoredPosition: {x: -293, y: -965}
   m_SizeDelta: {x: 579.2, y: 79.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &886404143
@@ -3272,7 +3272,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -293, y: 136}
+  m_AnchoredPosition: {x: -293, y: -607}
   m_SizeDelta: {x: 579.2, y: 79.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1174167444
@@ -4176,6 +4176,7 @@ GameObject:
   - component: {fileID: 1543471970}
   - component: {fileID: 1543471972}
   - component: {fileID: 1543471971}
+  - component: {fileID: 1543471973}
   m_Layer: 0
   m_Name: PanelLetreroTransporte
   m_TagString: Untagged
@@ -4244,6 +4245,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543471969}
   m_CullTransparentMesh: 0
+--- !u!95 &1543471973
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543471969}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: affc63ab13093f347b687aa54b9647a5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1580627448 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: bf648209d58978d41a72ece293ae3b10,
@@ -4284,7 +4304,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -353, y: -207}
+  m_AnchoredPosition: {x: -353, y: -893}
   m_SizeDelta: {x: 461.5, y: 117.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1583857010
@@ -5412,6 +5432,7 @@ GameObject:
   - component: {fileID: 1932670998}
   - component: {fileID: 1932671000}
   - component: {fileID: 1932670999}
+  - component: {fileID: 1932671001}
   m_Layer: 0
   m_Name: PanelLetreroRestaurante
   m_TagString: Untagged
@@ -5479,6 +5500,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932670997}
   m_CullTransparentMesh: 0
+--- !u!95 &1932671001
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932670997}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 722d63c7270089a45b70f35be152369a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1936317923 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: bf648209d58978d41a72ece293ae3b10,
@@ -5762,7 +5802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -293, y: -102}
+  m_AnchoredPosition: {x: -293, y: -845}
   m_SizeDelta: {x: 579.2, y: 79.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2100926752
